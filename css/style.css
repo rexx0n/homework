@@ -1,0 +1,143 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+    background-color: #c7c7c7;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10;
+    line-height: 1.6;
+    margin: 0;
+    color: white;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+h1 {
+    font-size: 40px;
+    padding-top: 24px;
+    color: #323232;
+    margin-bottom: 24px;
+}
+
+.container {
+    background-color: white;
+    width: 100%;
+    max-width: 1060px;
+    margin: 0 auto;
+    padding-top: 24px;
+    padding-left: 45px;
+    margin-left: 154px;
+    margin-right: 151px;
+    height: 978px;
+}
+.link {
+    margin-left: 96px;
+    background-color: #3a3a3a; 
+    border-right: 1px solid black;
+    
+    border-left: 1px solid black;
+    
+}
+.item {
+    margin-left:96px;
+}
+
+.panel {
+  background-color: #545454;
+    display: flex;  
+    width: 966px;
+box-shadow: 1px 1px black;
+    
+}
+
+    
+
+.panel > div {
+    padding: 10px;
+    text-align: center;
+    padding-left: 15px;
+
+}
+
+.leftpanel {
+    font-size: 13px;
+    border: 1px solid;
+    color: #656363;
+    width: 240px;
+    padding: 10px;
+}
+.leftmenu {
+    margin-top: 24px;   
+}
+.photo {
+    transform: translate(350px,-200px);
+}
+.frame {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(200, 200, 200);
+  position: absolute;
+  left: 490px;
+  top: 200px;
+  width: 678px;
+  height: 400px;
+  z-index: 14;
+
+  
+}
+.text {
+    color: black;
+    font-size: 10px;
+    margin-right: 0em;
+    display: inline-block;
+    transform: translate(23em,-8em);
+    width: 624px;
+    height: 160px;
+    font-size: 13.4px;
+    
+}
+
+
+
+
+
+
+
+
+.paneli {
+  background-color: #e1e1e1;
+    display: flex;  
+    width: 966px;
+    transform: translate(0em, -4em)
+}
+
+
+
+.paneli > div {
+    padding: 10px;
+    text-align: center;
+    padding-left: 15px;
+}
+
+
+.itemi {
+    margin-left:96px;
+    font-size: 15px;
+    color:black;
+}
+.reserved {
+    margin-left: 128px; 
+    font-size:13px; 
+    color:black;
+    
+}
