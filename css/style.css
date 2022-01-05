@@ -117,3 +117,9 @@ h1 {
     padding: 10px;
     
 }
+.block {
+    display: flex;
+    justify-content:space-between;
+    flex: 1 0 auto;
+    margin-right: 100px;
+}
